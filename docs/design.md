@@ -37,8 +37,10 @@
 
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequencediagramUC2.png)
-(images/sequencediagramUC3.png)
-(images/sequencediagramUC4.png)
+
+![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequencediagramUC3.png)
+
+![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequencediagramUC4.png)
 
 ## User Interface design
 Wireframe mockup of app
