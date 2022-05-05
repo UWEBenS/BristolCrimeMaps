@@ -30,14 +30,18 @@ Index page shows options for each use case option, select find a route button in
 
 ![Insert Deployment diagram here](images/userguide11.png)
 
+
 ![Insert Deployment diagram here](images/userguide12.png)
+
 
 ![Insert Deployment diagram here](images/userguide13.png)
 
 ### UC2 user guide
 Index page shows options for each use case option, select the search bar just beneath the banner of the page. Input your chosen ward that you want to find crime statistics on and click the magnifying glass to submit. This will send a query to the database and return with a table of crime data for any ward similar to your search. This is displayed in full to make the data easily searchable (althought in this use case the rows shouldn't exceed 20). From here you can search again or return to the index page.
 
+
 ![Insert Deployment diagram here](images/userguide1.png)
+
 
 ![Insert Deployment diagram here](images/userguide2.png)
 
@@ -45,7 +49,10 @@ Index page shows options for each use case option, select the search bar just be
 ### UC3 user guide
 Index page shows options for each use case option, select search for local crimes to be able search for specific crime rates. The colour coded Map on the right shows ward crime rates with brighter colours having higher crime rates. From this page you can select how you wish crime rates to be displayed. Value for number of crimes displays them as an absolute number. Value from crime relative to population. The other two buttons will show extra subcategories. This enables you to differentiate to decide risk factors that you may weight higher than others, or for deeper analysis to be performed on the data. Following your selection the submit button will generate your query. The table will then be displayed, the records are displayed without limit to allow easy access and for searching with browser support. From here you can use the buttons at the top to return to the crimedata page to create another query. 
 
+
 ![Insert Deployment diagram here](images/userguide3.png)
+
+
 
 ![Insert Deployment diagram here](images/userguide4.png)
 
