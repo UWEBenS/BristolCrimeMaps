@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pathfinder</title>
+    <link rel="stylesheet"   
+     href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+	<script src="geolocate.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div id="page-header">
+        <span class="heading">Pathfinder</span>
+      </div>
+	</div>
+	  <div class="search" >
+		<form action="searchtable";>
+			<button <i class="fa fa-search" ></i></button>
+			<input name="search" placeholder="Search for a ward.." type="text" >
+		</form>
+      </div>
+	  <div class="container" width=100%>
+		  <div id="page-navigation">
+			<div class="w3-bar w3-blue">
+			  <button class="w3-bar-item w3-button w3-ripple" onclick="location.href='crimedata.html';" style="width: 50.0%">Search for local crime rates</button>
+			  <button class="w3-bar-item w3-button w3-ripple" onclick="getLocation(loadMap);" style="width: 50.0%">Find a route</button>
+			</div>
+		  </div>
+		  <img class = "bristolmap" src="Bristol_Wards_by_all_crime_rate.png" alt="Map of bristol, coloured by crime rate (higher=brighter) (per 1000 of ward population)" >
+		  <div class="subcontainer" style="width: 50%; text-align: left; padding:30px; " >
+		  
+		  <form action="optiontable">
+			<input type="radio" name="crimedatabuttons" value="0">
+			<label for="Value for Number of Crimes">Value for Number of Crimes</label><br>
+			<br>
+			<input type="radio" name="crimedatabuttons" value="1">
+			<label for="Value from Crime Relative to Population">Value from Crime Relative to Population</label><br>
+			<br>
+			<!-- line break for easier visibility -->
+			<br>
+			<!-- Checkbox for non-mutually exclusive input -->
+			<input type="checkbox" name="crimedatabuttons" value="2">
+			<label for="Include Violent Crime "> Include Violent & Sexual Crime </label><br>
+			<br>
+			<input type="checkbox" name="crimedatabuttons" value="3">
+			<label for="Include Burgulary"> Include Burgulary</label><br>
+			<br>
+			<!-- line break for easier visibility -->
+			<br>
+			<!-- radio buttons for mutually exclusive input, change of name for different query -->
+			<input type="radio" name="endquery" value="4">
+			<label for="Order by ward name"> Order by ward name </label><br>
+			<br>
+			<input type="radio" name="endquery" value="5">
+			<label for="Order by year ascending"> Order by year ascending</label><br>
+			<br>
+			<input type="radio"  name="endquery" value="6">
+			<label for="Order by year descending"> Order by year descending</label><br>
+			<br>
+			<input type="radio"  name="endquery" value="7">
+			<label for="Order by crime"> Order by crime </label><br>
+			<br>
+			<!-- line break for easier visibility -->
+			<br>
+			<div class="subcontainer" style="text-align:left;" >
+			<button onclick="" class="button3" >Submit</button>
+		  </div>
+		  </form>
+		  
+		  </div>
+	 </div>
+		 <div id="report">
+		<button class="w3-bar-item w3-button w3-red" onclick="location.href='report.html';" style="width:100%">Report a crime</button>
+	</div>
+   </body>
+</html>

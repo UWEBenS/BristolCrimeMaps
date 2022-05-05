@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pathfinder</title>
+    <link rel="stylesheet"   
+     href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+	<script src="geolocate.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>   
+  <body>
+    <div class="grid-container">
+      <div id="page-header">
+        <span class="heading">Pathfinder</span>
+      </div>
+	</div>
+	  <div class="search" >
+		<form action="searchtable";>
+			<button <i class="fa fa-search" ></i></button>
+			<input name="search" placeholder="Search for a ward.." type="text" >
+		</form>
+      </div>
+      <div id="page-navigation">
+        <div class="w3-bar w3-blue">
+          <button class="w3-bar-item w3-button w3-ripple" onclick="location.href='crimedata.html';" style="width: 50.0%">Search for local crime rates</button>
+          <button class="w3-bar-item w3-button w3-ripple" onclick="location.href='index.html';" style="width: 50.0%">Find a route</button>
+        </div>
+	  </div>
+	  <div class="container" style="padding-top:80px;padding-left:150px;padding-right:150px;text-align:left;" >
+		<h2>Report a crime</h2>
+		<form action="report">
+			<h3>Ward*</h3>
+			<select name="Ward" id="Ward" required>
+			<option value="Hengrove & Whitchurch Park">Hengrove & Whitchurch Park</option>
+			<option value="Southmead">Southmead</option>
+			<option value="Avonmouth & Lawrence Weston">Avonmouth & Lawrence Weston</option>
+			<option value="Bishopsworth">Bishopsworth</option>
+			<option value="Eastville">Eastville</option>
+			<option value="St George West">St George West</option>
+			<option value="Easton">Easton</option>
+			<option value="Redland">Redland</option>
+			<option value="St George Central">St George Central</option>
+			<option value="Stockwood">Stockwood</option>
+			<option value="Ashley">Ashley</option>
+			<option value="Hartcliffe & Withywood">Hartcliffe & Withywood</option>
+			<option value="Westbury-on-Trym & Henleaze">Westbury-on-Trym & Henleaze</option>
+			<option value="Bishopston & Ashley Down">Bishopston & Ashley Down</option>
+			<option value="Cotham">Cotham</option>
+			<option value="Frome Vale">Frome Vale</option>
+			<option value="Lockleaze">Lockleaze</option>
+			<option value="Stoke Bishop">Stoke Bishop</option>
+			<option value="Bedminster">Bedminster</option>
+			<option value="Knowle">Knowle</option>
+			<option value="St George Troopers Hill">St George Troopers Hill</option>
+			<option value="Windmill Hill">Windmill Hill</option>
+			<option value="Bristol">Bristol</option>
+			<option value="Clifton Down">Clifton Down</option>
+			<option value="Southville">Southville</option>
+			<option value="Brislington East">Brislington East</option>
+			<option value="Clifton">Clifton</option>
+			<option value="Henbury & Brentry">Henbury & Brentry</option>
+			<option value="Hillfields">Hillfields</option>
+			<option value="Filwood">Filwood</option>
+			<option value="Lawrence Hill">Lawrence Hill</option>
+			<option value="Central">Central</option>
+			<option value="Horfield">Horfield</option>
+			<option value="Brislington West">Brislington West</option>
+			<option value="Hotwells & Harbourside">Hotwells & Harbourside</option>
+			</select>
+			<h3>Type of Crime*</h3>
+			<select name="Crime" id="Crime">
+			<option value="burglary_number">Burglary</option>
+			<option value="violent_&_sexual_offences_number">Violent & Sexual Offences</option>
+			<option value="all_crime_number">Other</option>
+			</select>
+			<h3>Time*</h3>
+			<select name="Time" id="Time">
+			<option value="2016/17">2016/17</option>
+			<option value="2017/18">2017/18</option>
+			<option value="2018/19">2018/19</option>
+			<option value="2019/20">2019/20</option>
+			<option value="2020/21">2020/21</option>
+			<option value="2021/22">2021/22</option>
+			</select>
+			<h3>Address</h3>
+			<input class="inputform" placeholder="Address.." type="text" >
+			<h3>Additional information</h3>
+			<input class="inputform" placeholder="Additional information.." type="text" >
+			<div class="subcontainer" style="text-align:right;" >
+			<button class="button3" type ="submit">Submit</button>
+			</div>
+		</form>
+		<div class="subcontainer" style="text-align:center;" >
+	   <a href="https://www.avonandsomerset.police.uk/report/" style="color:blue;">Please file a police report here.</a> 
+	  </div>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pathfinder</title>
+    <link rel="stylesheet"   
+     href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div id="page-header">
+        <span class="heading">Pathfinder</span>
+      </div>
+	</div>
+	  <div class="search" >
+		<form action="searchtable";>
+			<button <i class="fa fa-search" ></i></button>
+			<input name="search" placeholder="Search for a ward.." type="text" >
+		</form>
+      </div>
+	</div>
+	<div id="page-navigation">
+        <div class="w3-bar w3-blue">
+          <button class="w3-bar-item w3-button w3-ripple" onclick="location.href='crimedata.html';" style="width: 50.0%">Search for local crime rates</button>
+          <button class="w3-bar-item w3-button w3-ripple" onclick="getLocation(loadMap);" style="width: 50.0%">Find a route</button>
+        </div>
+	  </div>
+		<table class="searchtable"><body>
+				  <tr><th>Name</th><th>Number of crimes commited</th><th>Year</th></tr>
+				  <% for (var i=0; i<rows.length; i++) { %>
+				  <tr>
+					<td ><%= rows[i].ward_name %></td>
+					<td ><%= rows[i]['all_crime_number'] %></td>
+					<td ><%= rows[i]['time_period'] %></td>
+				  </tr>
+				  <% } %>
+		</body></table>
+</html>

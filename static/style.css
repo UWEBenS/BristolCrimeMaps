@@ -1,0 +1,156 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'ph ph ph ph ph'
+    'ln cn cn cn cn'
+    'pf pf pf pf pf';
+}
+
+#page-header {
+  grid-area: ph;
+  padding:80px 100px;
+  background: #c3cfd9 ;
+  border: 2px solid #FFFFFF;
+}
+.title { font-family:sans-serif; font-size:x-large; }
+.heading { font-family:'Source Sans Pro', sans-serif; font-size:x-large; }
+.heading2 { font-family:sans-serif; font-size:large; }
+
+#page-navigation {
+  grid-area: cn;
+}
+
+#page-footer {
+  grid-area: pf;
+}
+
+.indexmap{
+	height:3000px;
+	max-width: 100%;
+	max-height: 80vh;
+	margin:0;
+	padding:0;
+}
+.searchtable td{
+	padding: 8px;
+	border: 1px solid #000000;
+}
+
+.searchtable th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	border: 1px solid #000000;
+}
+.search {
+}
+button{
+	width:4%
+
+}
+input[type="text"] {
+	height: 100;
+	width:95%;
+}
+input[type="radio"] {
+	padding-left: 5px;
+}
+input[type="checkbox"] {
+	padding-left: 5px;
+}
+.container .button1 {
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	background-color:#2c88d9 ;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	width: 25%;
+	height: 100px;
+	border: 1px;
+	cursor: pointer;
+	border-radius: 6px;
+}
+.button1:hover {
+  background-color: #104070;
+}
+.container .button2 {
+position: absolute;
+top: 50%;
+left: 55%;
+background-color:#2c88d9 ;
+color: white;
+vertical-align: middle;
+font-size: 16px;
+width: 25%;
+height: 100px;
+border: 1px;
+cursor: pointer;
+display: inline-block;
+border-radius: 6px;
+}
+.button2:hover {
+  background-color: #104070;
+}
+.main-panel { width:800px }
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: ;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.inputform{
+	width: 100%;
+  padding: 16px 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.subcontainer .button3 {
+  text-align:center;
+  width:80px;
+  background-color:#2c88d9;
+  color: white;
+  font-size: 16px;
+  border: 1px;
+  cursor: pointer;
+}
+.button3:hover {
+  background-color: #104070;
+}
+
+.bristolmap{
+	float:right;
+	height:3000px;
+	max-width: 100%;
+	max-height: 80vh;
+	margin:0;
+	padding:0;
+}
+
+.searchtable{
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+<-- changes the color of all even numbered records -->
+.searchtable tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+<-- changes the color of all records when hovered-->
+.searchtable tr:hover{
+	background-color: #e2e2e2;
+}
+<-- changes the color of the first record -->
+.searchtable tr:nth-child(1){
+	color:white;
+	background-color: #24372e;
+}

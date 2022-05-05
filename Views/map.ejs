@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pathfinder</title>
+    <link rel="stylesheet"   
+     href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+	<script src="geolocate.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div id="page-header">
+        <span class="heading">Pathfinder</span>
+      </div>
+	</div>
+	  <div class="search" >
+		<form action="searchtable";>
+			<button <i class="fa fa-search" ></i></button>
+			<input name="search" placeholder="Search for a ward.." type="text" >
+		</form>
+      </div>
+      <div id="page-navigation">
+        <div class="w3-bar w3-blue">
+          <button class="w3-bar-item w3-button w3-ripple" onclick="location.href='crimedata.html';" style="width: 50.0%">Search for local crime rates</button>
+          <button class="w3-bar-item w3-button w3-ripple" onclick="getLocation(loadMap);" style="width: 50.0%">Find a route</button>
+        </div>
+	  </div>
+	  <div class="container" style="text-align: center;">
+	  <!-- iframe of ORS using geolocate script to start route from user location -->
+		<iframe src="https://maps.openrouteservice.org/#/directions/Your%20location/Bristol%20Cameras,Bristol,England,United%20Kingdom/data/<%=lat%>,<%=lon%>/embed/en-us" style="border:none; width: 60%; height: 1000px;"></iframe>    
+	  </div>
+	  <p>The map was not created by the group, please mark accordingly.</p>
+	  <div id="report">
+		<button class="w3-bar-item w3-button w3-red" onclick="location.href='report.html';" style="width:100%">Report a crime</button>
+	</div>
+  </body>
+</html>
