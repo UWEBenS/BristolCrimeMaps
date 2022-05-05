@@ -8,5 +8,3 @@ Crime data by ward in bristol covering: types of crime, ward name, code and time
 4. [Implementation](docs/implementation.md)
 5. [Testing](docs/testing.md)
 6. [Deployment](docs/deployment.md)
-
-Some diagrams don't seem to load
