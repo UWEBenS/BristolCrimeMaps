@@ -28,22 +28,22 @@ The system's (Pathfinder) relationship with the deployment platform and its depe
 ### UC1 user guide
 Index page shows options for each use case option, select find a route button in the center of the screen or beneath the search bar. On the pages loading select a position and ORS will give an interface for you to select your destination. ORS will then generate a route for you to travel.
 
-![Insert Deployment diagram here](images/userguide11.png)
+![Insert Deployment diagram here](images/Userguide11.png)
 
 
-![Insert Deployment diagram here](images/userguide12.png)
+![Insert Deployment diagram here](images/Userguide12.png)
 
 
-![Insert Deployment diagram here](images/userguide13.png)
+![Insert Deployment diagram here](images/Userguide13.png)
 
 ### UC2 user guide
 Index page shows options for each use case option, select the search bar just beneath the banner of the page. Input your chosen ward that you want to find crime statistics on and click the magnifying glass to submit. This will send a query to the database and return with a table of crime data for any ward similar to your search. This is displayed in full to make the data easily searchable (althought in this use case the rows shouldn't exceed 20). From here you can search again or return to the index page.
 
 
-![Insert Deployment diagram here](images/userguide1.png)
+![Insert Deployment diagram here](images/Userguide1.png)
 
 
-![Insert Deployment diagram here](images/userguide2.png)
+![Insert Deployment diagram here](images/Userguide2.png)
 
 
 ### UC3 user guide
