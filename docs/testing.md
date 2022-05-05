@@ -15,6 +15,7 @@ Tested whether an error message was returned when connection to the database fai
 ### Test Runs
 
 | Use-Case ID | Requirement ID | Test Case | Status |
+
 | ----UC1---- | -----FR1------ | The system should get user geo-location | -PASS- |
 
 | ----UC1---- | -----FR2------ | The system must display to the user the route from two locations on a map | -PASS- |
