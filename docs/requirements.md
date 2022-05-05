@@ -31,8 +31,6 @@ Witness - Witness of crime who may want report it without police intervention
 6.	Calculate fastest route avoiding wards with high crime rate of type
 7.	Display route |
 | **Variations** | User doesn’t give or browser doesn’t support geolocation |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | UC2 | Find Ward with lowest overall crime rate | 
 | -------------------------------------- | ------------------- |
@@ -45,9 +43,6 @@ Witness - Witness of crime who may want report it without police intervention
 3.	User selects specific ward
 4.	Display ward crime data |
 | **Variations** | N/A |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
-
 | UC3 | See reported Crime rate by ward | 
 | -------------------------------------- | ------------------- |
 | **Description** | As Police, I want to be aware of reports of crime in Bristol and the consequences |
@@ -57,8 +52,6 @@ Witness - Witness of crime who may want report it without police intervention
 1.	User selects Crime Map
 2.	Display colour coded map of ward crime rates |
 | **Variations** | N/A |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | UC4 | Report witnessed crime quickly and/or anonymously | 
 | -------------------------------------- | ------------------- |
@@ -72,10 +65,6 @@ Witness - Witness of crime who may want report it without police intervention
 4.	User fills form for ward, type of crime, 
 5.	User fills form for name, place, time and date |
 | **Variations** | N/A |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
-
-TODO: Your Use-Case diagram should include all use-cases.
 
 ![Insert your Use-Case Diagram Here](images/UseCaseDiagram.png)
 
@@ -94,7 +83,6 @@ TODO: Your Use-Case diagram should include all use-cases.
     
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
     NFR1: The map must fill over half the page(UC1)
     NFR2: The map must not conflict with or cover any other element on the page(UC1)
